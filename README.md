@@ -2,9 +2,15 @@
 
 It is an online editor and interpreter for the HTML5, CSS3, JS, and GLSL languages.
 
+## [Use it live](http://rocla.github.io/banana-editor-online/)
+
 ## Hello World!
 
 This is my README, so please, read me =)
+
+## Wiki
+
+Check out the [wiki](https://github.com/Rocla/banana-editor-online/wiki) for more information ;)
 
 ## Features
 
@@ -74,6 +80,7 @@ This is my README, so please, read me =)
 
 ### 25.09.2014
 
+- Created a gh-pages branch for a live website
 - Commit and push local to Github
 - Created the Github repository
 - Added the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
