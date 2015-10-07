@@ -5,11 +5,13 @@
     <title>Hello Banana!</title>
     <!-- Load the jQuery UI CSS -->
     <link rel="stylesheet" href="libs/jquery-ui/css/jquery-ui.css" type="text/css"/>
+    <!--<link rel="stylesheet" href="libs/bootstrap-3.3.5/css/bootstrap.css" type="text/css"/>-->
 
     <!-- Load jQuery first before jQuery UI! -->
     <!-- <script src="libs/jquery/js/jquery-1.11.3.min.js"></script> -->
     <script src="libs/jquery/js/jquery-2.1.4.js"></script>
-    <script src="libs/jquery-ui/js/jquery-ui-1.11.4.min.js"></script>
+    <script src="libs/jquery-ui/js/jquery-ui-1.11.4.js"></script>
+    <!--<script src="libs/bootstrap-3.3.5/js/bootstrap.js"></script>-->
 
     <script>
         var _init = $.ui.dialog.prototype._init;
@@ -172,6 +174,17 @@
         .ui-dialog .ui-dialog-titlebar-minimize:hover, .ui-dialog .ui-dialog-titlebar-minimize:focus {
             padding: 0;
         }
+/*
+        .modal
+        {
+            overflow: hidden;
+        }
+        .modal-dialog{
+            margin-right: 0;
+            margin-left: 0;
+        }
+        */
+
     </style>
 
 </head>
@@ -218,7 +231,42 @@
 
 <br/><br/>
 
-Please check out the <a href="https://github.com/Rocla/banana-editor-online">README on the Github repository</a> :)
+<!--
+<div class="side-menu" id="sideMenu">
+    <menu>
+        <ul class="nav nav-tabs nav-stacked">
+            <li><a href="#myModal" data-backdrop="false" data-toggle="modal">Click Me</a>
+            </li>
+        </ul>
+    </menu>
+</div>
+<div id="myModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">Settings</h4>
+
+            </div>
+            <div class="modal-body">
+                <p>Settings</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+        </div>
+        <!-- /.modal-content -->
+<!--    </div>
+    <!-- /.modal-dialog -->
+<!-- </div>
+<!-- /.modal -->
+
+<br/><br/>
+<a href="./testMultiWindows.html">---> The live editor prototype is here <---</a>
+
+<br/><br/><br/><br/>
+Please check out the <a href="https://github.com/Rocla/banana-editor-online">README</a> and the <a href="https://github.com/Rocla/banana-editor-online/wiki">wiki</a> on the Github repository :)
 
 <br/><br/>
 License:
@@ -233,5 +281,11 @@ License:
     Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
 
 </body>
+
+<!--<script>
+    $("#myModal").draggable({
+        handle: ".modal-header"
+    });
+</script>-->
 
 </html>
