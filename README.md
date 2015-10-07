@@ -4,7 +4,7 @@ It is an online editor and interpreter for the HTML5, CSS3, JS, and GLSL languag
 
 ## Current version: 0.0.2
 
-## [Play with it live](http://rocla.github.io/banana-editor-online/)
+## [Play with it live](http://rocla.github.io/Banana-editor-Online/)
 
 ## [Wiki](https://github.com/Rocla/banana-editor-online/wiki)
 
