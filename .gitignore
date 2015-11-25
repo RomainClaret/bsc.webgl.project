@@ -4,3 +4,11 @@
 .idea/vcs.xml
 .idea/WebGL.iml
 .idea/workspace.xml
+/bootstrap/compiled.php
+/vendor
+composer.json
+composer.lock
+.env.*.php
+.env.php
+.DS_Store
+Thumbs.db
