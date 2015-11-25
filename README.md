@@ -2,7 +2,7 @@
 
 It is an online editor and interpreter for the HTML5, CSS3, JS, and GLSL languages.
 
-## Current version: 0.0.2
+## Current version: 0.1.0
 
 ## [Play with it live BROKEN]()
 
