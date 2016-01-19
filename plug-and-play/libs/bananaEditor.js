@@ -97,7 +97,6 @@
 		live_updater.banana_import_content_editor.session.setMode("ace/mode/html");
 		live_updater.banana_import_content_editor.setAutoScrollEditorIntoView(true);
 		live_updater.banana_import_content_editor.setOptions({
-			maxLines: live_updater.max_lines_textarea,
 			minLines: live_updater.min_lines_textarea
 		});
 
@@ -108,7 +107,6 @@
 		live_updater.banana_export_content_editor.setAutoScrollEditorIntoView(true);
 		live_updater.banana_export_content_editor.setValue("Nothing to export...");
 		live_updater.banana_export_content_editor.setOptions({
-			maxLines: live_updater.max_lines_textarea,
 			minLines: live_updater.min_lines_textarea
 		});
 
