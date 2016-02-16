@@ -12,3 +12,5 @@ composer.lock
 .env.php
 .DS_Store
 Thumbs.db
+.env
+BananaEditor.sublime-workspace
